@@ -8,12 +8,12 @@ El dataset y la API provienen de la página oficial https://triathlon.org
 
 
 ## Table of Contents
-1. [General Info](#general-info)
+1. [Información general](#general-info)
 2. [Data](#Data)
 3. [Technologies](#Technologies)
 4. [Libraries](#Libraries)
 5. [Hypotheses](#Hypotheses)
-## General Info
+## Información general
 ***
 En este análisis tratamos de demostrar unas hipótesis a través de un dataset obtenido de Kaggle https://www.kaggle.com/teajay/global-shark-attacks
 ## Data
