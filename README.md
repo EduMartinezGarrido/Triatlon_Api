@@ -12,7 +12,6 @@ El dataset y la API provienen de la página oficial https://triathlon.org
 2. [Datos](#Datos)
 3. [Tecnologías](#Tecnologías)
 4. [Librerías](#Librerías)
-5. [Hypotheses](#Hypotheses)
 ## Información general
 ***
 Para el dataset hemos utilizado el World Triathlon Rankings, de la categoría Elite-Men https://triathlon.org/rankings/world_triathlon_rankings/male .
@@ -36,22 +35,19 @@ Una lista de las librerías utilizadas en elproyecto:
 ***
 Una pequeña introducción a las librerías usadas: 
 ```
-import pandas as pd
-import numpy as np
+import os
+from dotenv import load_dotenv
+import json
+import requests
 import re
+load_dotenv()
+from pandas import json_normalize
+import pandas as pd
+import src.funciones_api as funcion
 import matplotlib.pyplot as plot
-import src.funciones as fun
+import seaborn as sns
+from seaborn import violinplot
+import numpy as np
+import time
 ```
 
-## Hypotheses
-**1. ¿LOS TIBURONES ATACAN A LOS SURFISTAS POR ERROR DE IDENTIDAD?**
-
-Vamos a intentar demostrar la teoría de que los tiburones atacan a los surfistas porque los confunden con algún animal.
-
-![Image text](https://www.artsurfcamp.com/blog/wp-content/uploads/2017/04/eg.jpg)
-
-**2. ¿EL ATAQUE ES MAS VIOLENTO SI ERES HOMBRE O MUJER HACIENDO SURF?**
-
-Trataremos de buscar si existe una relación directa entre ser mujer u hombre, y la violencia con la que son atacados.
-
-![Image text](https://margruesa.com/wp-content/uploads/2018/02/surf-hombres-mujeres-premios-9928.jpg)
