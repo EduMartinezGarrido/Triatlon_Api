@@ -8,33 +8,33 @@ El dataset y la API provienen de la página oficial https://triathlon.org
 
 
 ## Table of Contents
-1. [Información general](#general-info)
-2. [Data](#Data)
-3. [Technologies](#Technologies)
-4. [Libraries](#Libraries)
+1. [Información general](#Informacion-general)
+2. [Datos](#Datos)
+3. [Tecnologías](#Tecnologías)
+4. [Librerías](#Librerías)
 5. [Hypotheses](#Hypotheses)
 ## Información general
 ***
-En este análisis tratamos de demostrar unas hipótesis a través de un dataset obtenido de Kaggle https://www.kaggle.com/teajay/global-shark-attacks
-## Data
+Para el dataset hemos utilizado el World Triathlon Rankings, de la categoría Elite-Men https://triathlon.org/rankings/world_triathlon_rankings/male .
+Para la API hemos utilizado 2 diferentes. La primera nos da información relacionada con el id de cada atleta, y en la segunda utilizamos ese id para bajar información de cada uno.
+## Datos
 ***
-Este dataset contiene datos tanto categóricos como cuantitaivos, por ello haremos un data cleaning.
+Ambos dataset contienen datos tanto categóricos como cuantitaivos, por ello haremos un data cleaning y un join de los DF.
 
 Data cleaning:
-- Eliminar valores repetidos o nulos
 - Filtrar columnas que vamos a usar
 - Renombrar columnas
-- Limpiar columnas que vamos a usar
+- Unir dataframes
 
-## Technologies
+## Technologias
 ***
-A list of technologies used within the project:
+Una lista de las librerías utilizadas en elproyecto:
 * [Jupyter Notebook](https://jupyter.org/) : Version 6.1.4
 * [Python](https://www.python.org/): Version 3.8.5
 * [Visual Studio Code](https://code.visualstudio.com/)
-## Libraries
+## Librerías
 ***
-A little intro about libraries. 
+Una pequeña introducción a las librerías usadas: 
 ```
 import pandas as pd
 import numpy as np
