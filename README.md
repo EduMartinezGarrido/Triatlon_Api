@@ -1,8 +1,8 @@
 # Base de datos enriquecida con una API
-![Image text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8DWhEO9IU168241svQ9UhAhFPB2ORgqhOcw&usqp=CAU)
+![Image text](https://st3.depositphotos.com/4112313/13687/v/600/depositphotos_136872318-stock-illustration-color-flat-logo-triathlon-vector.jpg)
 
 En este análisis tratamos de enriquecer a traves de una API un dataset, obteniendo un diccionario de atletas y graficos que explicarán si hay relación entre ciertas variables.
-El dataset y la API han sido utilizadas de https://triathlon.org
+El dataset y la API provienen de la página oficial https://triathlon.org
 
 
 
