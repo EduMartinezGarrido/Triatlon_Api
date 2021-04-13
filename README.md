@@ -1,5 +1,6 @@
 # Base de datos enriquecida con una API
-![Image text](https://trotadores.com/wp-content/uploads/2017/12/TP026_Triatlon-1024x640.jpg)
+![Image text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8DWhEO9IU168241svQ9UhAhFPB2ORgqhOcw&usqp=CAU)
+
 En este análisis tratamos de enriquecer a traves de una API un dataset, obteniendo un diccionario de atletas y graficos que explicarán si hay relación entre ciertas variables.
 El dataset y la API han sido utilizadas de https://triathlon.org
 
